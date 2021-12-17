@@ -108,7 +108,7 @@ def incoming_sms():
     # Determine the right reply for this message
     print(body)
     
-    if body == 'Hackru2019':
+    if body == 'AndrewKalMobile':
         global access
         vehicle_ids = smartcar.get_vehicle_ids(
         access['access_token'])['vehicles']
