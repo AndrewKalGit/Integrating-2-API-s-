@@ -120,7 +120,7 @@ def incoming_sms():
         resp.message("Unlocked!")
         return str(resp)
 
-    elif body != 'Hackru2019':
+    elif body != 'Hack!':
         vehicle_ids = smartcar.get_vehicle_ids(
         access['access_token'])['vehicles']
 
